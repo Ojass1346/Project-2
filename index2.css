@@ -1,0 +1,46 @@
+.content{
+    
+    background:url(https://pro2-bar-s3-cdn-cf2.myportfolio.com/6c682fa170908759081d6021482ee35f/3c2f5684-277e-4175-a947-a429c7001b41_rw_1920.gif?h=60d6e0052ed70cd99d4bbbe42527bb91);
+    background-size: 100%, 100%;
+    background-size:cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    transition: .6s;
+    padding-bottom: 75px;
+    border-radius: 30px;
+}
+
+body{
+    background-color: black;
+}
+
+.content:hover {
+    transform: scale(1.18);
+}
+
+.Text {
+    margin: 25px;
+    margin-top: 50px;
+    font-family: 'Comforter Brush', cursive;
+    color: white;
+    font-size: 25px;
+}
+
+img{
+    width: 550px;
+    height: 350px;
+    transform: rotate(0deg);
+    transition: 0.5s;
+}
+
+.images img:first-child {
+    float:right;
+}
+
+#Third-child{
+    float: right;
+}
+
+img:hover{
+    transform: rotate(360deg);
+}
